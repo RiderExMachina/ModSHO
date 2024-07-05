@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 106.68) (xy 146.05 118.11)
+			(xy 146.05 113.03) (xy 146.05 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 146.05 106.68)
+			(xy 158.75 113.03) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 140.97 113.03)
+			(xy 140.97 105.41) (xy 140.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 143.51 96.52)
+			(xy 158.75 109.22) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 140.97 86.36)
+			(xy 158.75 105.41) (xy 140.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 143.51 115.57)
+			(xy 143.51 109.22) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +1882,7 @@
 	)
 	(global_label "LAD0"
 		(shape input)
-		(at 166.37 86.36 0)
+		(at 166.37 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1892,7 +1892,7 @@
 		)
 		(uuid "5250263d-e17a-461d-a32f-97d7c1e35bce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9514 86.36 0)
+			(at 173.9514 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2058,7 @@
 	)
 	(global_label "LAD1"
 		(shape input)
-		(at 166.37 96.52 0)
+		(at 166.37 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2068,7 +2068,7 @@
 		)
 		(uuid "98f4bdc2-e052-499c-85ac-772acfb5d80c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9514 96.52 0)
+			(at 173.9514 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 	)
 	(global_label "LAD2"
 		(shape input)
-		(at 166.37 106.68 0)
+		(at 166.37 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2200,7 +2200,7 @@
 		)
 		(uuid "d327dab4-704e-40f2-b4a5-4d950edbb335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9514 106.68 0)
+			(at 173.9514 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,17 +2234,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 106.68 90)
+		(at 162.56 113.03 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05e3647b-8b84-4f6f-b40f-dc1cbdaeaac4")
 		(property "Reference" "R3"
-			(at 161.2899 109.22 0)
+			(at 156.972 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,16 +2252,17 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 163.8299 109.22 0)
+			(at 163.8299 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 107.696 90)
+			(at 162.814 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 106.68 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 106.68 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,14 +2441,12 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 139.7 59.69 0)
-		(mirror y)
+		(at 137.16 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "670ec5d6-899a-4d00-9a50-3379a7504868")
 		(property "Reference" "J1"
 			(at 138.43 48.26 0)
@@ -2467,7 +2465,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 139.7 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2483,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 139.7 59.69 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,17 +2618,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 96.52 90)
+		(at 162.56 109.22 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79e51b3b-8f42-4682-b284-1adc755fb986")
 		(property "Reference" "R2"
-			(at 161.2899 99.06 0)
+			(at 156.972 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,16 +2636,17 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 163.8299 99.06 0)
+			(at 163.8299 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 97.536 90)
+			(at 162.814 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 96.52 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2664,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 96.52 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2698,7 @@
 		(dnp no)
 		(uuid "91a869f7-0d80-4953-a1e1-f3f77a841668")
 		(property "Reference" "R4"
-			(at 161.2899 119.38 90)
+			(at 156.718 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,17 +2760,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 162.56 86.36 90)
+		(at 162.56 105.41 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ec7f55d-74bd-4b89-97fa-0ac4adb91410")
 		(property "Reference" "R1"
-			(at 161.2899 88.9 0)
+			(at 156.972 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,16 +2778,17 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 163.8299 88.9 0)
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 162.814 87.376 90)
+			(at 162.814 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
+			(at 162.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2806,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 162.56 86.36 0)
+			(at 162.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

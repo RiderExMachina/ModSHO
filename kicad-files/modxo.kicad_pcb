@@ -5359,6 +5359,105 @@
 			)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "3c82fb07-83d7-423d-9dc7-ffb9cea33512")
+		(pts
+			(xy 142.074568 94.727111) (xy 150.01808 85.715601)
+		)
+		(height 9.342219)
+		(gr_text "12.0128 mm"
+			(at 152.25 95.25 48.60430313)
+			(layer "Dwgs.User")
+			(uuid "3c82fb07-83d7-423d-9dc7-ffb9cea33512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "8222de16-90d3-49be-9912-13237b3d7268")
+		(pts
+			(xy 109.758324 64.75) (xy 149.76808 64.810811)
+		)
+		(height -8.652778)
+		(gr_text "40.0098 mm"
+			(at 129.778101 54.977639 359.9129145)
+			(layer "Dwgs.User")
+			(uuid "8222de16-90d3-49be-9912-13237b3d7268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "dca77c1f-8dd5-49cb-b135-ed9f2ad67426")
+		(pts
+			(xy 110.127601 64.850594) (xy 110.127829 94.770716)
+		)
+		(height 9.961086)
+		(gr_text "29.9201 mm"
+			(at 101.316629 79.810722 270.0004366)
+			(layer "Dwgs.User")
+			(uuid "dca77c1f-8dd5-49cb-b135-ed9f2ad67426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 146.494426 76.120811)
 		(end 144.86808 76.120811)
